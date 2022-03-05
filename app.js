@@ -68,10 +68,11 @@ function textBlower(e) {
 }
 
 startBtn.addEventListener("click", () => {
-    !clearInterval(inter);
+    inter = setInterval(() => {
+        textBlower();
+    }, hitTime);
 })
 
 stopBtn.addEventListener("click", () => {
     clearInterval(inter);
-    console.log("hi")
 })
