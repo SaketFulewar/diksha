@@ -6,7 +6,7 @@ const box = document.querySelector(".box-main");
 const startBtn = document.querySelector(".start-btn");
 const stopBtn = document.querySelector(".stop-btn");
 
-const pass = ["manya", "vaibhav", "tatya", "adi"];
+const pass = ["manya", "vaibhav", "tatya", "adi","purvi++"];
 alert("You Have To Enter Your Unique Identity To Acess The Website");
 var user = window.prompt("Enter Your Unique Identity");
 var timeRange = 50000;
