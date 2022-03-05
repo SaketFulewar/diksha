@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-main {
+    background-color: rgba(216, 112, 147, 0.096);
+    height: 95vh;
+    width: 97vw;
+    overflow: hidden;
+    position: relative;
+}
+
+button {
+    background-color: palevioletred;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.btn-box {
+
+}
+h2 {
+    transition: 0.3s ease;
+    position: absolute;
+    color: rgb(202, 45, 97);
+}
+
+.spam-pg {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.spam-pg .content {
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: 0.5s ease-in-out;
+    text-align: center;
+}
+
+.spam-pg img {
+    margin-top: 1rem;
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: 0.5s ease-in-out;
+}
+
+.caption {
+    color: rgb(104, 104, 104);
+    margin-top: 1rem;
+    transform: translateY(-30px);
+    opacity: 0;
+}
