@@ -59,7 +59,7 @@ function textBlower(e) {
     myText.style.top = randomTop + "px";
     myText.style.left = randomLeft + "px";
     myText.style.transform = "rotate(" + randomRotation + "deg)";
-    myText.innerHTML = "Saket"
+    myText.innerHTML = "Diksha"
     box.appendChild(myText);
 
     setTimeout(() => {
